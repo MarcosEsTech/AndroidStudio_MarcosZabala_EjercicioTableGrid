@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingLeft="25dp">
+
+            <GridLayout
+                android:columnCount="2"
+                android:rowCount="12"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:padding="50dp">
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto3"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto4"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto5"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto5"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto6"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto6"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto7"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto7"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto8"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto8"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto9"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto9"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto10"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto10"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto11"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto11"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto12"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto12"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto1"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hola"
+                        android:layout_below="@+id/texto2"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <ImageView
+                        android:id="@+id/texto2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_account_balance_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"/>
+
+
+                </RelativeLayout>
+
+
+
+
+
+            </GridLayout>
+        </ScrollView>
+
+
+</RelativeLayout>
